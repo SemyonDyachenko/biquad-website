@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.root {
+  width:100%;
+  height:100%;
+  float:left;
+}
+
+.wrapper {
+  width:100%;
+  float:left;
+  background: linear-gradient(135deg, #002769 0%, #0050d8 100%);
+  min-height:500px;
+}
+

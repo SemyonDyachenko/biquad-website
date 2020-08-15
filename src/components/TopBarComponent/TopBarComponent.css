@@ -1,0 +1,55 @@
+.topbar{
+    width:100%;
+    height:auto;
+    max-height: 150px;
+    float:left;
+  }
+  
+  .logo-section {
+    width:50%;
+    max-width: 50%;
+    float:left;
+    height: auto;
+    box-sizing: border-box;
+    padding:30px;
+  }
+  
+  .menu-section {
+    width:50%;
+    max-width:50%;
+    float:left;
+    height:auto;
+    box-sizing: border-box;
+    padding:30px;
+    height: 80px;
+  }
+  
+  .menu-section nav,ul {
+    width:100%;
+    float:left;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-section li {
+    list-style: none;
+    display: inline-block;
+    margin-left:15px;
+    margin-right: 15px;
+  }
+  
+  .menu-section a {
+    font-size:16px;
+    color:white;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  
+  .menu-section li:hover {
+    transform: translateY(-1px);
+    transition: 0.2s;
+    opacity:0.8;
+  }

@@ -1,0 +1,173 @@
+
+
+.iphone-x {
+    position: relative;
+    width:280px;
+    height: 580px;
+    background-color: white;
+    background-image: linear-gradient(60deg, rgb(250, 255, 255) 1%,rgb(255, 255, 255) 100%);
+    border-radius: 40px;
+    box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111;
+    left:50%;
+    transform:translateX(-50%);
+    margin-top:60px;
+    }
+    
+    
+    .iphone-x span {
+      position: absolute;
+      display: block;
+      color: transparent;
+    }
+    
+    
+    .iphone-x i {
+      top: 0px;
+      left: 50%;
+      transform: translate(-50%, 6px);
+      height: 8px;
+      width: 15%;
+      background-color: #101010;
+      border-radius: 8px;
+      box-shadow: inset 0px -3px 3px 0px rgba(256, 256, 256, 0.2);
+    }
+    
+    
+    .iphone-x b {
+      left: 10%;
+      top: 0px;
+      transform: translate(180px, 4px);
+      width: 12px;
+      height: 12px;
+      background-color: #101010;
+      border-radius: 12px;
+      box-shadow: inset 0px -3px 2px 0px rgba(256, 256, 256, 0.2);
+    
+    }
+    
+    .example-section {
+      width:100%;
+      float:left;
+      height:auto;
+      max-height:800px;
+    }
+    
+    .phone-example-section {
+      width:50%;
+      max-width:50%;
+      float:left;
+      
+    }
+    
+    .about-example-section {
+      width:50%;
+      float:left;
+      height:800px;
+      min-height: 800px;
+    }
+    
+    .about-child {
+      width:100%;
+      height:100%;
+      float:left;
+      padding:10px;
+    }
+    
+    .about-headline {
+      width:100%;
+      height:150px;
+      float:left;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .about-headline h2 {
+      font-size:65px;
+      letter-spacing: -2px;
+      font-weight: 400;
+      color:white;
+    }
+    
+    .about-product {
+      width:100%;
+      float:left;
+      height:300px;
+      max-height:300px;
+      padding-left:40px;
+      box-sizing:border-box;
+    }
+    
+    .about-product p {
+      font-size:26px;
+      color:white;
+      word-wrap: break-word;
+    }
+    
+    .messagebox {
+      width:100%;
+      float:left;
+      height:100%;
+    }
+    
+    .sms-box-120-45 {
+      width:120px;
+      height:45px;
+    }
+    
+    .sms-box-120-85 {
+      width:120px;
+      height:85px;
+    }
+    
+    .sms-mini-box {
+      float: right;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background:rgb(5, 132,254);
+      margin-right:5px;
+      margin-top: 65px;
+      box-shadow: inset 0px -3px 2px 0px rgba(256, 256, 256, 0.2);
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .sms-mini-box h5 {
+      color:white;
+      font-size:17px;
+      letter-spacing: 1px;
+      font-weight: 500;
+      line-height:100%;
+    }
+    
+
+    .connect-buttons {
+      width:100%;
+      height:150px;
+      margin-left:40px;
+      float:left;
+    }
+
+    .connect-buttons>button {
+      width:220px;
+      height: 45px;
+      background:#0088cc;
+      outline:none;
+      border:none;
+      border-radius: 5px;
+      
+    }
+
+    .connect-buttons>button>a {
+      color:white;
+      font-size:17px;
+      text-decoration: none;
+
+    }
+
+    .connect-buttons>button>i {
+      padding-left:5px;
+      padding-right: 5px;
+    }

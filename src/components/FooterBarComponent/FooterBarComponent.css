@@ -1,0 +1,16 @@
+.footer {
+    width:100%;
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    background:white;
+    color:rgb(46, 45, 45);
+    font-weight: 300;
+    font-size:22px;
+}
+
+.footer a {
+    margin-left:10px;
+}
