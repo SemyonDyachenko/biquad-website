@@ -28,7 +28,7 @@ class ShortDescription extends React.Component {
                         </div>
 
                         <div className="connect-buttons">
-                            <button><a href="dashboard.biquad.ru/login?start_with=telegram"><i class="fab fa-telegram-plane"></i> Начать с телеграмм</a></button>
+                            <button><a href="https://dashboard.biquad.ru/login?start_with=telegram"><i class="fab fa-telegram-plane"></i> Начать с телеграмм</a></button>
                         </div>
                     </div>
                 </div>
