@@ -34,19 +34,10 @@ class ShortDescription extends React.Component {
                 </div>
 
                 <div className="phone-example-section">
-                        <div className="iphone-x">
-                            <div className="messagebox">
-                                <div className="sms-mini-box sms-box-120-45">
-                                    <h5>Hello</h5>
-                                </div>
-
-                                <div className="sms-mini-box sms-box-120-85">
-                                    <h5>Hello</h5>
-                                </div>
-                            </div>
+                <img src={process.env.PUBLIC_URL + '/iphone.png'} alt="logo" />
                     </div>
                 </div>
-            </div>
+         
                             
         );
     }

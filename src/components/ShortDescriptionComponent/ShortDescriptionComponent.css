@@ -56,7 +56,14 @@
       width:50%;
       max-width:50%;
       float:left;
+      display: flex;
+      justify-content: center;
       
+    }
+
+    .phone-example-section img {
+      margin-top:50px;
+      max-height: 600px;
     }
     
     .about-example-section {

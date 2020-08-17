@@ -1,0 +1,63 @@
+.tutorial-container {
+    width:100%;
+    float:left;
+    height:auto;
+    margin:0;
+    padding:0;
+}
+
+.tutorial-headline {
+    width:100%;
+    height:200px;
+    max-height: 200px;
+    float:left;
+    display: flex;
+    justify-content: center;
+} 
+
+.tutorial-headline h1 {
+    text-align: center;
+    white-space: pre-line;
+    letter-spacing: -4px;
+    font-weight: 300;
+    font-size:64px;
+}
+
+.video-tutorial {
+    width:100%;
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    height:100%;
+    min-height:500px;
+    box-sizing: border-box;
+    padding:40px;
+}
+
+.longabout-container {
+    width:100%;
+    float:left;
+    height:auto;
+}
+
+.row {
+    width:1210px;
+    max-width: 1210px;
+    display: block;
+    float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.col {
+    float:left;
+    width:50%;
+    height:auto;
+    flex: 0 0 50%;
+    max-width: 50%;
+}

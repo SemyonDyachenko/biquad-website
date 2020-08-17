@@ -15,9 +15,9 @@ class TopBar extends React.Component {
               <nav>
                 <ul>
                   <li><a href="/">Главная</a></li>
-                  <li><a href="#">Как работает?</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=vDKt5p8qY94&t=1s">Как работает?</a></li>
                   <li><a href="#">Поддержка</a></li>
-                  <li><a href="#">Войти</a></li>
+                  <li><a href="https://www.dashboard.biquad.ru/login">Войти</a></li>
                   <li className="lang-changer">
                     <a href="en">EN</a>
                     <a href="#">/</a>
